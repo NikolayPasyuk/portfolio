@@ -1,15 +1,26 @@
 .projectsBlock {
-    min-height: 100vh;
-    background-color: #F0F8FF;
+    padding: 100px 0;
+    background-color: #212529
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .title {
-    background-color: #AFEEEE;
+    position: relative;
+}
+
+.title h2 {
+    font-family: inherit;
+    line-height: 1.2;
+    margin-bottom: 60px;
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 750;
+    color: #e0a80d;
 }
 
 .projects {
@@ -18,5 +29,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    box-sizing: border-box;
+}
+
+@media screen and (max-width: 878px) {
+    .projects {
+        justify-content: center;
+    }
 }

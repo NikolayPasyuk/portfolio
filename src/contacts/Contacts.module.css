@@ -13,7 +13,7 @@
 }
 
 .contactsForm {
-    width: 280px;
+    width: 50%;
     border: 1px solid;
     display: flex;
     flex-direction: column;
@@ -36,4 +36,10 @@
     background: #C0C0C0;
     margin-top: 20px;
     padding: 5px 40px;
+}
+
+@media screen and (max-width: 360px) {
+    .contactsForm {
+        width: 100%;
+    }
 }
