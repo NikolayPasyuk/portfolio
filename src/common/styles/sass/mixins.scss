@@ -1,0 +1,15 @@
+@import './variables';
+
+@mixin text($fontFamily,$fontSize,$lineHeight) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+@mixin buttonAndInput($padding,$fontSize,$border,$lineHeight,$borderRadius) {
+  padding: $padding;
+  font-size: $fontSize;
+  border: $border;
+  line-height: $lineHeight;
+  border-radius: $borderRadius
+}
