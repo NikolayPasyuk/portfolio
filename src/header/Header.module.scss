@@ -1,0 +1,16 @@
+@import '../common/styles/sass/variables';
+
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 12px;
+  padding: 25px 0;
+  background-color: $bgThirdColor;
+  margin-bottom: 1px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}

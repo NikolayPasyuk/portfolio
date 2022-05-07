@@ -1,12 +1,12 @@
-import style from './Nav.module.css'
+import style from './Nav.module.scss'
 
 export const Nav = () => {
     return (
         <div className={style.nav}>
-            <a href="">Home</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contacts</a>
+            <a className={style.navLink} href="">Home</a>
+            <a className={style.navLink} href="">Skills</a>
+            <a className={style.navLink} href="">Projects</a>
+            <a className={style.navLink} href="">Contacts</a>
         </div>
     );
 }

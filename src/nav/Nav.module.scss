@@ -1,0 +1,19 @@
+@import '../common/styles/sass/variables';
+
+.nav {
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+
+  .navLink {
+    color: $textSecondColor;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 25px;
+    text-decoration: none;
+
+    &:hover {
+      color: $textThirdColor
+    }
+  }
+}

@@ -11,7 +11,6 @@ export const Main = () => {
                     <p>FRONT-END DEVELOPER</p>
                 </div>
                 <div className={style.photo}>
-
                 </div>
             </div>
         </div>

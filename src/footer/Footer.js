@@ -1,18 +1,19 @@
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faLinkedin, faSkype, faTelegram, faTwitter} from '@fortawesome/free-brands-svg-icons'
 
 export const Footer = () => {
     return (
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
-                <h2 className={style.title}>Nikolay Pasyuk</h2>
-                <div className={style.socialContainer}>
-                    <div className={style.social}></div>
-                    <div className={style.social}></div>
-                    <div className={style.social}></div>
-                    <div className={style.social}></div>
+                <div>
+                    <FontAwesomeIcon className={style.icon} icon={faSkype}/>
+                    <FontAwesomeIcon className={style.icon} icon={faTwitter}/>
+                    <FontAwesomeIcon className={style.icon} icon={faTelegram}/>
+                    <FontAwesomeIcon className={style.icon} icon={faLinkedin}/>
                 </div>
-                <span>All rights reserved</span>
+                <p>All rights reserved 2022</p>
             </div>
         </div>
     );

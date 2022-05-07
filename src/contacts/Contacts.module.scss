@@ -25,7 +25,7 @@
         @include buttonAndInput(25px, 13px, 0, 1.5, 10px);
         margin-bottom: 10px;
         background: #fcf2f2;
-        height: 5px;
+        height: 0;
         color: $bgSecondColor;
       }
 
@@ -39,7 +39,7 @@
     .button {
       @include buttonAndInput(5px 40px, 13px, 1px solid transparent, 1.5, 35px);
       background: $primaryColor;
-      color: $textLinkColor;
+      color: $textThirdColor;
       font-weight: 500;
     }
   }

@@ -1,0 +1,19 @@
+@import '../common/styles/sass/variables.scss';
+@import '../common/styles/sass/mixins';
+
+.remoteBlock {
+  padding: 50px 0;
+  background-color: $bgThirdColor;
+
+  .remoteContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .button {
+      @include buttonAndInput(5px 40px, 13px, 1px solid transparent, 1.5, 35px);
+      background: $primaryColor;
+      color: $textThirdColor;
+      font-weight: 500;
+    }
+  }
+}

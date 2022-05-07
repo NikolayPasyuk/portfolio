@@ -1,0 +1,28 @@
+@import '../common/styles/sass/variables.scss';
+
+.footerBlock {
+  padding: 50px 0;
+  background: $bgThirdColor;
+
+  .footerContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .icon {
+      display: inline-block;
+      font-size: 1.2rem;
+      text-rendering: auto;
+      color: $primaryColor;
+      padding: 0 5px;
+    }
+
+    & p {
+      color: $textThirdColor;
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 15px;
+      line-height: 1.5;
+    }
+  }
+}
+

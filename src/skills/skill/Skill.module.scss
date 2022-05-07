@@ -1,0 +1,33 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.skill {
+  width: 250px;
+  background-color: $bgSecondColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    text-rendering: auto;
+    color: $primaryColor;
+  }
+
+  .title {
+    @include text($TitleFontFamily, 18px, 1.2);
+    letter-spacing: 1px;
+    color: $textColor;
+  }
+
+  .description {
+    @include text($TextFontFamily, 14px, 26px);
+    font-weight: 400;
+    color: $textSecondColor;
+  }
+}

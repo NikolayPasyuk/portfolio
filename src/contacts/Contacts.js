@@ -11,7 +11,7 @@ export const Contacts = (props) => {
                 <form className={style.contactsForm}>
                     <input type="text" className={style.input} placeholder='Name'/>
                     <input type="text" className={style.input} placeholder='E-mail'/>
-                    <textarea className={style.input} placeholder='Message'/>
+                    <textarea className={style.input} rows='5' placeholder='Message'/>
                 </form>
                 <button type='submit' className={style.button}>Send</button>
             </div>
