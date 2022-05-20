@@ -38,6 +38,7 @@
 
     .button {
       @include buttonAndInput(5px 40px, 13px, 1px solid transparent, 1.5, 35px);
+      text-decoration: none;
       background: $primaryColor;
       color: $textThirdColor;
       font-weight: 500;

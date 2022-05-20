@@ -8,13 +8,14 @@
   .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
-  }
+    flex-wrap: nowrap;
 
-  .skills {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+    .skills {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+    }
   }
 }
