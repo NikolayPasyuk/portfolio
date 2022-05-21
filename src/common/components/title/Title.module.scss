@@ -9,4 +9,7 @@
   font-weight: 750;
   color: $primaryColor;
   text-transform: capitalize;
+  @media screen and (max-width: 600px) {
+    text-align: center;
+  }
 }

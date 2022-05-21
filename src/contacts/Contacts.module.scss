@@ -22,7 +22,11 @@
       }
 
       .input {
-        @include buttonAndInput(25px, 13px, 0, 1.5, 10px);
+        padding: 25px;
+        font-size: 13px;
+        border: 0;
+        line-height: 1.5;
+        border-radius: 10px;
         margin-bottom: 10px;
         background: #fcf2f2;
         height: 0;
@@ -37,11 +41,11 @@
     }
 
     .button {
-      @include buttonAndInput(5px 40px, 13px, 1px solid transparent, 1.5, 35px);
-      text-decoration: none;
-      background: $primaryColor;
-      color: $textThirdColor;
-      font-weight: 500;
+      @include button;
+
+      &:hover {
+        @include hover
+      }
     }
   }
 }

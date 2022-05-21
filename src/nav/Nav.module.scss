@@ -11,6 +11,9 @@
     font-weight: 600;
     margin: 0 25px;
     text-decoration: none;
+    @media screen and (max-width: 625px) {
+      margin: 0
+    }
 
     &:hover {
       color: $textThirdColor

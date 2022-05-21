@@ -10,6 +10,9 @@
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
+  @media screen and (max-width: 878px) {
+    margin-bottom: 10px;
+  }
 
   .icon {
     height: 60px;

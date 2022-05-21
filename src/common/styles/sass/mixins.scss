@@ -6,10 +6,20 @@
   line-height: $lineHeight;
 }
 
-@mixin buttonAndInput($padding,$fontSize,$border,$lineHeight,$borderRadius) {
-  padding: $padding;
-  font-size: $fontSize;
-  border: $border;
-  line-height: $lineHeight;
-  border-radius: $borderRadius
+@mixin button() {
+  font-size: 15px;
+  border: 1px solid transparent;
+  line-height: 1.5;
+  border-radius: 35px;
+  font-weight: 700;
+  background: $primaryColor;
+  color: $textThirdColor;
+  width: 115px;
+  height: 30px;
+}
+
+@mixin hover() {
+  border: 2px solid $textColor;
+  box-shadow: 0 0 13px $textThirdColor;
+  text-shadow: 0 0 15px $textThirdColor, 0 0 5px $textThirdColor;
 }
