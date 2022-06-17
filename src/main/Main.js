@@ -1,7 +1,7 @@
 import style from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import sliderImage from "../assets/image/slider-bg.png";
-import photoImage from '../assets/image/photo.jpg'
+import photoImage from '../assets/image/photo.jpg';
 
 export const Main = () => {
     const slider = {
