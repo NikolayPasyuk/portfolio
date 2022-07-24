@@ -6,6 +6,7 @@
   background-color: $bgSecondColor;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
   @media screen and (max-width: 878px) {
     margin-bottom: 10px;
   }

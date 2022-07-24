@@ -42,6 +42,8 @@
 
     .button {
       @include button;
+      align-self: center;
+      margin-top: 30px;
 
       &:hover {
         @include hover

@@ -10,15 +10,25 @@
 
     .icon {
       display: inline-block;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       text-rendering: auto;
       color: $primaryColor;
       padding: 0 5px;
+      border: 1px solid transparent;
+
+      &:hover {
+        border: 1px solid $textColor;
+        transition: all 0.3s ease-in-out 0s;
+      }
+
+      @media screen and (max-width: 380px) {
+        font-size: 1.2rem;
+      }
     }
 
     & p {
       color: $textThirdColor;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 300;
       margin-top: 15px;
       line-height: 1.5;

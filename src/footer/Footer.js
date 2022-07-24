@@ -9,13 +9,20 @@ export const Footer = () => {
         <div className={style.footerBlock}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <div>
+                    <a href={"https://t.me/Nick_191"}>
+                        <FontAwesomeIcon className={style.icon} icon={faTelegram}/>
+                    </a>
+                    <a href={"https://linkedin.com/in/nikolay-pasyuk-81b45123a"}>
+                        <FontAwesomeIcon className={style.icon} icon={faLinkedin}/>
+                    </a>
+                    <a href={"https://secure.skype.com/live:kolyan-18121"}>
+                        <FontAwesomeIcon className={style.icon} icon={faSkype}/>
+                    </a>
                     <FontAwesomeIcon className={style.icon} icon={faEnvelope}/>
-                    <FontAwesomeIcon className={style.icon} icon={faTelegram}/>
-                    <FontAwesomeIcon className={style.icon} icon={faLinkedin}/>
-                    <FontAwesomeIcon className={style.icon} icon={faSkype}/>
                 </div>
                 <p>All rights reserved 2022</p>
             </div>
         </div>
     );
+
 }
