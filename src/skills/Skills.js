@@ -7,7 +7,7 @@ import Fade from 'react-reveal/Fade';
 
 export const Skills = () => {
     return (
-        <div className={style.skillsBlock}>
+        <div id='skills' className={style.skillsBlock}>
             <Fade>
                 <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                     <Title text={'Skills'}/>

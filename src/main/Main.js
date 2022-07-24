@@ -1,8 +1,9 @@
-import style from './Main.module.scss'
+import styles from './Main.module.scss'
 import styleContainer from '../common/styles/Container.module.css'
 import sliderImage from "../assets/image/slider-bg.png";
 import photoImage from '../assets/image/photo.jpg';
 import Fade from 'react-reveal/Fade';
+import Tilt from 'react-tilt'
 
 export const Main = () => {
     const slider = {
@@ -13,12 +14,14 @@ export const Main = () => {
     }
 
     return (
-        <div style={slider} className={style.mainBlock}>
+        <div style={slider} className={styles.mainBlock}>
             <Fade>
                 <div className={styleContainer.container}>
-                    <div style={photo} className={style.photo}>
-                    </div>
-                    <div className={style.wrapper}>
+                    <Tilt className={styles.tilt} options={{max: 25}}>
+                        <div style={photo} className={styles.photo}>
+                        </div>
+                    </Tilt>
+                    <div className={styles.wrapper}>
                         <span>Hi THERE!</span>
                         <h1>I'm Nikolay Pasyuk</h1>
                         <p>FRONT-END DEVELOPER</p>
