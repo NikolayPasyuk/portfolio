@@ -18,6 +18,14 @@
   height: 30px;
 }
 
+@mixin flex($direction,$justifyContent,$alignItems,$flexWrap) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 @mixin hover() {
   border: 2px solid $textColor;
   box-shadow: 0 0 13px $textThirdColor;
