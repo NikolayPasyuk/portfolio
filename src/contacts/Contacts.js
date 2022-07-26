@@ -4,6 +4,7 @@ import {Title} from "../common/components/title/Title";
 import Fade from 'react-reveal/Fade';
 
 export const Contacts = () => {
+
     return (
         <div id='contacts' className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
